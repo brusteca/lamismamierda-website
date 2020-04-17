@@ -1,0 +1,18 @@
+- gifs
+- tablas html con colores (en particular por los bordes)
+- puntero custom
+- guestbook
+- lorem ipsum
+- torcer las columnas con css onda /r/mildlyinfuriating
+- musica en autoplay
+- una bailarina virtual que te sigue al costado mientras scroleas
+- capaz una pagina haciendo mencion a Marcelo and the cool boys como la banda inspiradora o banda previa
+- poner banda de mierda en el texto asi hacemos seo
+- fecha y hora actual
+
+
+INSPO
+
+https://badhtml.com/
+https://old.reddit.com/r/mildlyinfuriating/
+https://old.reddit.com/r/rainbowbar/

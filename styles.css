@@ -1,0 +1,184 @@
+html {
+	cursor: url('img/gifs/cursor.gif'), auto;
+}
+
+body {
+	margin:40px auto;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	/* color:#444; */
+	padding:0 10px;
+	font-family: sans-serif;
+}
+
+h1, h2, h3 {
+	line-height:1.2
+}
+
+
+body {
+	background-image: url("img/gifs/lsd.gif"), url("img/gifs/marciano.gif"), url("img/banda04.jpg");
+	background-repeat: repeat-x, repeat-y, repeat;
+	background-color: #cccccc;
+}
+
+h1 {
+	background-image: radial-gradient(brown, yellow);
+	font-size: 3em;
+	font-family: sans-serif;
+	font-weight: bolder;
+	color: #00EE9F;
+}
+
+h2 {
+	background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+	font-size: 2em;
+	color: #F09EE5;
+	text-align: center;
+}
+
+h2 span {
+	background-color: rgba(128, 128, 0, 0.5);
+}
+
+.sticky-logo {
+	position: fixed;
+	height: 150px;
+	width: 150px;
+	top: 150px;
+	left: 150px;
+}
+
+ul.temas {
+	background-color: green;
+}
+
+ul.temas li {
+	list-style-image: url("img/gifs/pointl.gif");
+}
+
+ul.redes {
+	background-color: rgba(100, 150, 70, 0.9);
+}
+
+ul.redes li {
+	list-style-image: url("img/gifs/aaabulletleafanim.gif");
+
+}
+
+p {
+	background-color: red;
+}
+
+p.aclaracion {
+	background-color: transparent;
+	margin-bottom: -3em;
+	text-align: right;
+	margin-right: 99px;
+	transform: rotate(15deg);
+}
+
+p.bio-1 {
+	transform: rotate(-1deg);
+}
+
+p.bio-2 {
+	transform: rotate(3deg);
+	position:relative;
+	left: -5px;
+}
+
+p.bio-3 {
+	transform: rotate(5deg);
+	position:relative;
+	left: -10px;
+}
+
+p.bio-4 {
+	transform: rotate(7deg);
+	position:relative;
+	left: -15px;
+}
+
+p.bio-5 {
+	transform: rotate(10deg);
+	position:relative;
+	left: -20px;
+	margin-bottom: -145px
+}
+
+p.contacto {
+	color: #0F0FFF;
+	background-color: #000000;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 1.2em
+}
+
+a {
+	background-color: rgba(150,75,0, 0.8);
+	font-weight: bold;
+	color:  #FFFF00;
+}
+
+a:visited {
+	color:  #DDDD00;
+}
+
+a:hover {
+	font-size: 1.3em;
+}
+
+marquee {
+	font-family: "Comic Sans MS";
+	color: #FFEE00;
+	background-color: #ff33f9;
+	margin-left: -300px;
+	margin-right: 50px;
+}
+
+.rotation {
+	display:inline;
+	animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.embedded-player {
+	transform: rotate(1deg);
+	position: relative;
+	left: 50px;
+	top: 10px;
+}
+
+.img-01 {
+	position: relative;
+	top: -1300px;
+	left: -150px;
+}
+
+.img-02 {
+	position: relative;
+	top: -900px;
+	left: 600px;
+}
+
+.img-03 {
+	position: relative;
+	top: -350px;
+	left: -370px;
+}
+
+.img-04 {
+	position: relative;
+	top: -100px;
+	left: 400px;
+}
