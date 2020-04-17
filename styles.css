@@ -4,6 +4,7 @@ html {
 
 body {
 	margin:40px auto;
+	min-width: 650px;
 	max-width:650px;
 	line-height:1.6;
 	font-size:18px;
