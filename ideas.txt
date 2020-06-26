@@ -1,15 +1,23 @@
 - gifs
-- tablas html con colores (en particular por los bordes)
-- puntero custom
-- guestbook
-- lorem ipsum
 - torcer las columnas con css onda /r/mildlyinfuriating
+- puntero custom
+- fecha y hora actual
+- que hacer click en el coso de las webcams te lleve a una pagina que dice DALE PAJERO (con audio autoplay)
+- poner banda de mierda en el texto asi hacemos seo
+
+- guestbook
 - musica en autoplay
 - una bailarina virtual que te sigue al costado mientras scroleas
 - capaz una pagina haciendo mencion a Marcelo and the cool boys como la banda inspiradora o banda previa
-- poner banda de mierda en el texto asi hacemos seo
-- fecha y hora actual
+- un test de qué integrante de la misma mierda sos
+- nuestras bandas influenciales (poner esos videos espectaculares)
+- letras y acordes de los temas
+	- de la misma mierda
+	- de los redondos
 
+
+- tablas html con colores (en particular por los bordes)
+- lorem ipsum
 
 INSPO
 
