@@ -1,1 +1,1 @@
-# [LAMISMAMIERDA.ONLINE](http://lamismamierda.online)
+# [LAMISMAMIERDA.WEBSITE](http://lamismamierda.website)
