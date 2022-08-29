@@ -25,3 +25,4 @@ INSPO
 https://badhtml.com/
 https://old.reddit.com/r/mildlyinfuriating/
 https://old.reddit.com/r/rainbowbar/
+https://github.com/tholman/cursor-effects

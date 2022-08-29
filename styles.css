@@ -2,15 +2,7 @@ html {
 	cursor: url('img/gifs/cursor.gif'), auto;
 }
 
-body.main {
-	margin:40px auto;
-	min-width: 650px;
-	max-width:650px;
-	line-height:1.6;
-	font-size:18px;
-	/* color:#444; */
-	padding:0 10px;
-	font-family: sans-serif;
+body.main-bg {
 	background-image: url("img/gifs/lsd.gif"), url("img/gifs/marciano.gif"), url("img/banda04.jpg");
 	background-repeat: repeat-x, repeat-y, repeat;
 	background-color: #cccccc;
@@ -20,6 +12,17 @@ body.influence-bg {
 	background-image: url("img/gifs/ELINDIO.gif"), url("img/redondos-01.png"), url("img/gifs/redondos.webp");
 	background-repeat: repeat-x, repeat-y, repeat;
 	background-color: #cccccc;
+}
+
+div.main {
+	margin:40px auto;
+	min-width: 650px;
+	max-width:650px;
+	line-height:1.6;
+	font-size:18px;
+	/* color:#444; */
+	padding:0 10px;
+	font-family: sans-serif;
 }
 
 h1, h2, h3 {
