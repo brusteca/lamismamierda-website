@@ -101,6 +101,40 @@ img.tapa-2020 {
 	transform: rotate(1.4deg);
 }
 
+div.container-2023 {
+	transform: rotate(-14deg);
+	padding-bottom: 40px;
+}
+
+ul.temas-2023 {
+	/* background-color: yellow; */
+	background: linear-gradient(45deg, yellow, green);
+}
+
+ul.temas-2023 li {
+	transform: rotate(3deg);
+	list-style-image: url("img/gifs/pointl.gif");
+}
+
+ul.temas-2023 a {
+	color: #A43FFF;
+	background: linear-gradient(110deg, #10FF20, #FFFF20);
+	transition:  color 1s, font-size 0.2s;
+}
+
+ul.temas-2023 a:hover {
+	color: #002F4D;
+}
+
+img.tapa-2023 {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	top: 150px;
+	left: 450px;
+	transform: rotate(25deg);
+}
+
 ul.redes {
 	position: relative;
 	background-color: rgba(100, 150, 70, 0.9);
@@ -130,7 +164,7 @@ p.aclaracion {
 	margin-bottom: -3em;
 	text-align: right;
 	margin-right: 99px;
-	transform: rotate(15deg);
+	transform: rotate(30deg);
 	color: green;
 	font-weight: bold;
 }
@@ -180,6 +214,7 @@ a {
 	background-color: rgba(150,75,0, 0.8);
 	font-weight: bold;
 	color:  #FFFF00;
+	transition:  font-size 0.1s;
 }
 
 a:visited {
@@ -209,6 +244,23 @@ marquee {
   }
   to {
     transform: rotate(359deg);
+  }
+}
+
+.shake {
+	display:inline;
+	animation: shake 0.1s infinite linear;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(-1deg);
+  }
+	50% {
+		transform: rotate(1deg);
+	}
+  100% {
+    transform: rotate(-1deg);
   }
 }
 
