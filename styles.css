@@ -62,6 +62,8 @@ div.container-disco {
 	min-height: 280px;
 }
 
+/* 2019 DISCO DE MIERDA */
+
 ul.temas-2019 {
 	position: absolute;
 	left: 340px;
@@ -84,6 +86,8 @@ img.tapa-2019 {
 	border-radius: 10px
 }
 
+/* 2020 PERO KE MIERDA*/
+
 ul.temas-2020 {
 	background-color: blue;
 }
@@ -101,13 +105,14 @@ img.tapa-2020 {
 	transform: rotate(1.4deg);
 }
 
+/* 2023 LA BANDA LOCA DEL TIO ROCK */
+
 div.container-2023 {
 	transform: rotate(-14deg);
 	padding-bottom: 40px;
 }
 
 ul.temas-2023 {
-	/* background-color: yellow; */
 	background: linear-gradient(45deg, yellow, green);
 }
 
@@ -133,7 +138,151 @@ img.tapa-2023 {
 	top: 150px;
 	left: 450px;
 	transform: rotate(25deg);
+	z-index: 2;
 }
+
+p.aclaracion {
+	background-color: transparent;
+	margin-bottom: -3em;
+	text-align: right;
+	margin-right: 99px;
+	transform: rotate(30deg);
+	color: green;
+	font-weight: bold;
+}
+
+/* 2024 LOS 5 MEJORES AÑOS DE TU VIDA */
+
+h2.titulo-2024-5mejores {
+	margin-bottom: 0;
+	background-image: repeating-linear-gradient(-69deg, red, green 20%, black 30%);
+	font-size: 1.5em;
+	text-align: center;
+}
+
+h2.titulo-2024-5mejores a {
+	color: #9EF0E5;
+}
+
+h2.titulo-2024-5mejores a:hover {
+	color: #9E99E5;
+}
+
+div.container-2024-5mejores {
+	margin-bottom: 30px;
+	min-height: 360px;
+	background: repeating-conic-gradient(
+		from 45deg at 20% 60%,
+		brown 0deg 10deg,
+		darkgoldenrod 10deg 20deg,
+		chocolate 20deg 30deg
+	);
+}
+
+p.descripcion-2024-5mejores {
+	margin-top: 0;
+	margin-left: 50%;
+	width: 50%;
+	background: repeating-conic-gradient(
+		from 45deg at 80% 60%,
+		brown 0deg 10deg,
+		darkgoldenrod 10deg 20deg,
+		chocolate 20deg 30deg
+	);
+	color: rgb(95, 139, 212);
+	font-size: 1.1em;
+	font-weight: bolder;
+}
+
+p.descripcion-2024-5mejores span {
+	background-color: rgba(100, 80, 0, 0.8);
+}
+
+ul.temas-2024-5mejores {
+	margin-top: 60px;
+	margin-left: 50%;
+	width: 50%;
+}
+
+ul.temas-2024-5mejores li {
+	transform: rotate(3deg);
+	list-style-image: url("img/gifs/pointl.gif");
+}
+
+ul.temas-2024-5mejores a {
+	color: #A43FFF;
+	background: linear-gradient(110deg, #10FF20, #FFFF20);
+	transition:  color 1s, font-size 0.2s;
+}
+
+img.tapa-2024-5mejores {
+	position: absolute;
+	width: 360px;
+	height: 360px;
+	top: 20px;
+	left: -50px;
+	transform: rotate(-5deg);
+}
+
+img.looking-divider {
+	width: 740px;
+	margin-left: -50px;
+}
+
+/* 2024 EL MOJO SECRETO EN PYKARO'S BAR */
+
+div.container-tapa-2024-mojosecreto div {
+	width: 650px;
+	height: 650px;
+	border-radius: 350px;
+	background: repeating-conic-gradient(
+		from 45deg at 50% 50%,
+		rgb(255, 239, 14) 0deg 10deg,
+		rgb(245, 55, 58) 10deg 20deg,
+		orange 20deg 30deg
+	);
+	animation: rotation 20s infinite linear;
+}
+
+div.container-tapa-2024-mojosecreto img {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top: 75px;
+	left: 75px;
+	border-radius: 30px;
+}
+
+h2.titulo-2024-mojosecreto {
+	margin-top: -85px;
+	margin-bottom: 0px;
+	background-image: repeating-linear-gradient(-69deg, red, green 20%, black 30%);
+	font-size: 2em;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+div.container-2024-mojosecreto {
+	margin-top: -17px;
+	margin-left: -22px;
+	margin-right: 18px;
+	background: repeating-linear-gradient(
+		60deg,
+		brown 30%,
+		darkgoldenrod 20%,
+		chocolate 50%
+	);
+	transform: rotate(2deg);
+}
+
+p.descripcion-2024-mojosecreto {
+	background: transparent;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* DATOS */
 
 ul.redes {
 	position: relative;
@@ -157,16 +306,6 @@ ul.redes img {
 
 p {
 	background-color: red;
-}
-
-p.aclaracion {
-	background-color: transparent;
-	margin-bottom: -3em;
-	text-align: right;
-	margin-right: 99px;
-	transform: rotate(30deg);
-	color: green;
-	font-weight: bold;
 }
 
 p.bio-1 {

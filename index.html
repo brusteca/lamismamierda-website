@@ -48,6 +48,25 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body class="main-bg">
+
+		<!-- ruido de pedo -->
+		<script type="text/javascript">
+			function playSound(event) {
+				let audio = document.getElementById("fart-reverb");
+				audio.pause();
+				audio.currentTime = 0;
+				audio.play();
+			}
+			// document.addEventListener('click', playSound, false);
+			document.addEventListener('pointerdown', playSound, false);
+		</script>
+		<audio
+			id="fart-reverb"
+			src="audio/fart-reverb.ogg"
+			preload="auto"
+			style="visibility: hidden;">
+		</audio>
+
 		<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"/></script>
 
 		<div class="main">
@@ -85,12 +104,55 @@
 				<img src="img/gifs/smoking-skull.gif" alt="" class="shake">
 			</div>
 
-			<h2><a target="_blank" href="https://www.youtube.com/watch?v=H45fnxsgD2M">2023 LA BANDA LOCA DEL TIO ROCK (DISCAZO</a></h2>
+			<div class="container-disco container-tapa-2024-mojosecreto">
+				<div class="">
+				</div>
+				<a target="_blank" href="https://www.youtube.com/watch?v=6_7s4ucZi8o"><img src="img/mojosecreto-cover.jpg"></img></a>
+			</div>
+
+			<h2 class="titulo-2024-mojosecreto">
+				<a target="_blank" href="https://www.youtube.com/watch?v=6_7s4ucZi8o">LA MISMA MIERDA EN VIVO: EL MOJO SECRETO EN PYKARO'S BAR 2024</a>
+			</h2>
+
+			<div class="container-disco container-2024-mojosecreto">
+				<p class="descripcion-2024-mojosecreto">
+					SI NUNCA TUVISTE LA MALA SUERTE DE PRESENCIAR LA PATADA DE ALLANAMIENTO EN LA PUERTA DEL ROCK KE ES LA MISMA MIERDA EN VIVO, NO TE PREOCUPES, PORKE AHORA TENES UNA SOLUCION: CON GRAN JOLGORIO LA MISMA MIERDA TIENE EL AGRADO DE PRESENTAR UNA NUEVA OBRA: LA MISMA MIERDA EN VIVO: EL MOJO SECRETO EN PYKARO'S BAR
+				</p>
+				<p class="descripcion-2024-mojosecreto">
+					GRABADO EL 22 DE JUNIO DE 2024 EN EL BAR ANDROMEDA, NO VAS A PODER PARAR DE DELEITARTEN'T CON EL INCREIBLE SHOW DE "MUSICA", DIVERSION, VENTRILOQUIA, SORTEOS, Y MUCHO MAS
+				</p>
+			</div>
+
+			<div class="">
+				<img src="img/gifs/lightningdivider.gif" alt="" class="looking-divider">
+				<img src="img/gifs/lightningdivider.gif" alt="" class="looking-divider">
+			</div>
+
+			<h2 class="titulo-2024-5mejores"><a target="_blank" href="https://www.youtube.com/watch?v=icrDJ3aSz4A">2024 SINGEL | LOS 5 MEJORES AÑOS DE TU VIDA Y PESCADERIA PRESIDENCIAL (ROCK DE PROTESTA)</a></h2>
+
+			<div class="container-disco container-2024-5mejores">
+				<p class="descripcion-2024-5mejores">
+					<span>
+						LA MISMA MIERDA INTENTA DEMOSTRAR KE EL ROCK DE PROTESTA SIGUE BIBO (FRACASA)
+					</span>
+				</p>
+				<ul class="temas-2024-5mejores">
+					<li><a target="_blank" href="https://www.youtube.com/watch?v=icrDJ3aSz4A">LADO A - LOS MEJORES 5 AÑOS DE TU VIDA</a></li>
+					<li><a target="_blank" href="https://www.youtube.com/watch?v=icrDJ3aSz4A?time=3m12s">LADO 2 - PESCADERIA PRESIDENCIAL</a></li>
+				</ul>
+				<a target="_blank" href="https://www.youtube.com/watch?v=icrDJ3aSz4A"><img class="tapa-2024-5mejores" src="img/5mejores-cover.jpg"></img></a>
+			</div>
+
+			<div class="">
+				<img src="img/gifs/looking_divider.gif" alt="" class="looking-divider">
+			</div>
+
+			<h2><a target="_blank" href="https://www.youtube.com/watch?v=H45fnxsgD2M">2023 LA BANDA LOCA DEL TIO ROCK (DISCAZO CONSEPTUAL</a></h2>
 
 			<div class="container-disco container-2023">
 				<p class="aclaracion">(PODES HACERlES CLICK)</p>
 
-				<img class="tapa-2023" src="img/bandaloca-cover.jpg"></img>
+				<a target="_blank" href="https://www.youtube.com/watch?v=H45fnxsgD2M"><img class="tapa-2023" src="img/bandaloca-cover.jpg"></img></a>
 
 				<ul class="temas-2023">
 					<li><a target="_blank" href="https://www.youtube.com/watch?v=OX5wtNs9Fhc&list=PLsotdw0Yal4bWxvZ-6z-CG69RNpBKVRsS&index=1">LA BANDA LOCA DEL TIO ROCK</a></li>
@@ -115,7 +177,7 @@
 			<h2><a target="_blank" href="https://www.youtube.com/watch?v=YiCxZopgyfM">PERO KE MIERDA [2020]</a></h2>
 
 			<div class="container-disco">
-				<img class="tapa-2020" src="img/perokemierda-cover.jpg"></img>
+				<a target="_blank" href="https://www.youtube.com/watch?v=YiCxZopgyfM"><img class="tapa-2020" src="img/perokemierda-cover.jpg"></img></a>
 
 				<ul class="temas-2020">
 					<li><a target="_blank" href="https://www.youtube.com/watch?v=j8x9ycz0LN0&list=PLsotdw0Yal4bUuCMNZTVmBORNiD0wuCjP&index=1">BOLICHEROS</a></li>
@@ -145,7 +207,7 @@
 
 			<h2><a target="_blank" href="https://www.youtube.com/watch?v=OKM8nv0oWNM">DISCO DE MIERDA (2019</a></h2>
 			<div class="container-disco">
-				<img class="tapa-2019 shake" src="img/discodemierda-cover.jpg"></img>
+				<a target="_blank" href="https://www.youtube.com/watch?v=OKM8nv0oWNM"><img class="tapa-2019 shake" src="img/discodemierda-cover.jpg"></img></a>
 
 				<ul class="temas-2019">
 					<li><a target="_blank" href="https://www.youtube.com/watch?v=ZqFjfAzYfcA">BANDA DE MIERDA</a></li>
@@ -242,6 +304,11 @@
 			<br>
 
 			<a href="https://soundcloud.com/alespender" target="_blank"><img src="img/gifs/Los_Marijuanos_Chi_town_boogie.gif" alt=""></a>
+
+			<br>
+			<br>
+			<br>
+			<img src="img/gifs/bsbdivider.gif" alt="" width="650px">
 
 		</div>
 
