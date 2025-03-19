@@ -48,6 +48,24 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body class="influence-bg">
+
+		<!-- ruido de pedo -->
+		<script type="text/javascript">
+			function playSound(event) {
+				let audio = document.getElementById("fart-reverb");
+				audio.pause();
+				audio.currentTime = 0;
+				audio.play();
+			}
+			document.addEventListener('pointerdown', playSound, false);
+		</script>
+		<audio
+			id="fart-reverb"
+			src="audio/fart-reverb.ogg"
+			preload="auto"
+			style="visibility: hidden;">
+		</audio>
+
 		<script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"/></script>
 
 		<div class="main">
