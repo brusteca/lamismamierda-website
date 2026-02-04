@@ -1,4 +1,4 @@
-/* El Heroldo - Early 2000s Newspaper Style */
+/* Puto el que lee */
 
 /* Reset and Base Styles */
 * {
@@ -341,7 +341,7 @@ article p {
 
 .footer-section a {
     color: #fff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .footer-section a:hover {
