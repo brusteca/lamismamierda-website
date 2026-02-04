@@ -22,6 +22,10 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+p a {
+    color: #5a9ec4;
+}
+
 /* Header */
 .site-header {
     background: linear-gradient(to bottom, #87ceeb, #b0d9f1);
@@ -120,6 +124,7 @@ body {
 }
 
 /* Articles */
+
 .lead-story h2 {
     font-size: 2rem;
     color: #1a3a52;
@@ -239,10 +244,6 @@ article p {
 
 .related h4 a:visited {
     color: inherit;
-}
-
-.related p a {
-    color: #5a9ec4;
 }
 
 /* Weather Box */
