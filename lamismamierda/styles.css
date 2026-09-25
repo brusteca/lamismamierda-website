@@ -1,5 +1,20 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'plasdrip';
+  src: url('fonts/plasdrip.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
 	cursor: url('img/gifs/cursor.gif'), auto;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
 }
 
 body.main-bg {
@@ -459,4 +474,62 @@ marquee {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* SLURP! */
+
+body.main-slurp-bg {
+	background-image: url("img/slurp-cover.jpg");
+	background-repeat: repeat;
+	background-color: #cccccc;
+}
+
+.main-slurp-bg h1, .main-slurp-bg h2 {
+	background-image: radial-gradient(#5e3c26, #24170f);
+	font-family: 'plasdrip', sans-serif;
+	font-weight: bolder;
+	color: #11EE22;
+	text-align: center;
+	padding: .3em;
+}
+
+.main-slurp-bg h1 {
+	font-size: 3em;
+}
+
+.main-slurp-bg h2 {
+	font-size: 2em;
+}
+
+.main-slurp-bg ul {
+	text-align: center;
+	font-size: 2em;
+	background-color: #00ff0066;
+}
+
+.main-slurp-bg li {
+	list-style-image: url("img/gifs/pointl.gif");
+}
+
+.musicprovider-logo {
+	height: 1em;
+}
+
+.logo-oro {
+	margin-top: 10em;
+}
+
+.logo-oro img {
+	display: block;
+	margin: 0 auto;
+	width: 35em;
+}
+
+.logo-oro h2 {
+	position: relative;
+	z-index: 2;
+	margin: 0;
+	margin-bottom: -3em;
+	background-image: none;
+	background-color: #00000000;
 }
